@@ -31,7 +31,6 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
-    /* font-weight: 700; */
 }
 
 .container {
@@ -47,9 +46,15 @@ h1 {
 .tagline {
     font-size: var(--fs-tagline);
     color: var(--dark-grayish-magenta);
+    max-width: 22rem;
+    margin-left: auto;
+    margin-right: auto;
 } 
 
 .rating {
+    max-width: 21rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 3rem;
     height: 30vh;
     display: flex;
@@ -62,7 +67,6 @@ h1 {
     color: var(--very-dark-magenta);
     background-color: var(--light-grayish-magenta);
     font-weight: 700;
-    /* height: 5vh; */
     padding: .6rem;
     border-radius: .5rem;
 }
@@ -79,10 +83,17 @@ h1 {
 .card {
     background-color: var(--very-dark-magenta);
     color: var(--light-grayish-magenta);
-    padding: 2rem;
+    padding: 2.1rem;
     margin-bottom: 1rem;
     border-radius: .5rem;
     text-align: left;
+    max-width: 21rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card p {
+    line-height: 1.1rem;
 }
 
 .card-top {
@@ -91,8 +102,26 @@ h1 {
 }
 
 .card-top img {
+    width: 2.5rem;
     border-radius: 50%;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
+}
+
+.card-top .name {
+    font-weight: 700;
+}
+
+.card-top .verify {
+    color: var(--soft-pink);
+    font-weight: 500;
+}
+
+.card-bottom p {
+    line-height: 1.2rem;
+}
+
+.card-bottom .quote {
+    margin-top: 1.5rem;
 }
 
 .attribution {
