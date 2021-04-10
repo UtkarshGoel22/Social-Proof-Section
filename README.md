@@ -25,9 +25,9 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Screenshot
 
-![Desktop preview for the Profile card component coding challenge](./design/desktop-design.jpg)
+![Desktop preview for the Social proof section coding challenge](./design/desktop-design.jpg)
 
-![Mobile preview for the Profile card component coding challenge](./design/mobile-design.jpg)
+![Mobile preview for the Social proof section coding challenge](./design/mobile-design.jpg)
 
 ### Links
 
